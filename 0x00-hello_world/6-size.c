@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main print the string inthe put function
+ * main - print the string inthe put function
  *
  * Description: using the main function
  * this program prints "programming is like building a multilingual puzzle
@@ -21,6 +21,3 @@ int main(void)
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
-
-
-
