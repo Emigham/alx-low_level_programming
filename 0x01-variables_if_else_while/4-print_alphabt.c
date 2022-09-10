@@ -11,7 +11,7 @@ int alphabet;
 alphabet = 'a';
 while (alphabet <= 'z')
 {
-if (alphabet =='e')
+if (alphabet == 'e')
 {
 }
 else
@@ -19,7 +19,7 @@ if (alphabet == 'q')
 {
 }
 else
- putchar(alphabet);
+putchar(alphabet);
 alphabet++;
 }
 putchar('\n');
