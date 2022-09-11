@@ -9,7 +9,7 @@ int main(void)
 	int num;
 
 	num = '0';
-	wile (num <= '9')
+	while (num <= '9')
 	{
 		putchar(num);
 		if (num <= '8')
