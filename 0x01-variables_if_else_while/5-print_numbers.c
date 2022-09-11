@@ -1,19 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - this is where our program starts and end
+ *main - print all single digit  numbers
  *
- *Return:return zero if no error and non zero if error
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
+	int digit;
+	
+	for (digit = 0; digit < 10; digit++)
+	printf("%i", digit);
+	putchar('\n');
 
-	num = 0;
-	while (num < 10)
-	{
-		printf("%d", num);
-		num++;
-	}
-	printf(("\n");
 	return (0);
 }
+ 
