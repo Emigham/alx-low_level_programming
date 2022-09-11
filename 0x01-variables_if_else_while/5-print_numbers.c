@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - this is where our program starts and end
  *
  *Return:return zero if no error and non zero if error
  */
