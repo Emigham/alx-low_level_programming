@@ -12,4 +12,4 @@ int main(void)
 	printf("%i", digit);
 	putchar('\n');
 	return (0);
-} 
+}
