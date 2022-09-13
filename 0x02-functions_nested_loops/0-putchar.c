@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * main - print putchar
  *
- * Return: Always 0
+ * Return:returns 0
  */
-
 main()
 {
 	printf("_putchar\n");
