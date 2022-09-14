@@ -1,17 +1,14 @@
 #include "main.h"
+
 /**
- * print_alphabet - print alphabet of letters
- *
- * Return: void
+ * print_alphbet
  */
+
 void print_alphabet(void)
 {
-	int alph = 'a';
+	int ch;
 
-	while (alph <= 'z')
-	{
-		_putchar(alph)
-		alph++;
-	}
-	putchar('\n');
-}	
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		_putchar(ch);
+	-putchar('\n');
+}
