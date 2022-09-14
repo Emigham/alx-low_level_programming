@@ -1,17 +1,14 @@
 #include "main.h"
+
 /**
  * print_alphabet
- *
- * Return:returns void on sucess
  */
+
 void print_alphabet(void)
 {
-	int alpha = 'a';
+	int ch;
 
-	while (alpha <= 'z')
-	{
-		_putchar(alpha);
-		alpha++;
-	}
-	putchar('\n');
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		_putchar(ch);
+	_putchar('\n');
 }
