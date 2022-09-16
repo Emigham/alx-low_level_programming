@@ -2,11 +2,11 @@
 
 /**
 * main - causes an infinite loop
-* Retuen: 0
+* Return: 0
 */
 
 int main(void)
-{	
+{
 	int i;
 
 	printf("infinite loop incoming : (\n");
