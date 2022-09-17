@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,27 +8,23 @@
 
 void print_traingle(int size)
 {
-	int i;
-	int j;
-	int k;
+	int hash, index;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	} else
-	{
-
-		for (i = 1; i <= size; i++)
+		for (hash = 1; hash <= size; hash++)
 		{
-			for (j = size - i ; j > 0; j--)
-			{
+			for (index = size - hash; index > 0; index--)
 				_putchar(' ');
-			}
-			for (k = 0; k < i; k++)
-			{
+
+			for (index = 0; index < hash; index++)
 				_putchar('#');
-			}
+
+			if (hash == size)
+				continue;
+
 			_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
