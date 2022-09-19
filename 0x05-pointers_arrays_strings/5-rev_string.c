@@ -4,7 +4,7 @@
  * _strings - returns the length of a string
  * @s: string
  *
- * Return: length
+ * Return:return length
  */
 
 int _strlen(char *s)
@@ -23,7 +23,7 @@ int _strlen(char *s)
 /**
  * rev_string - reverses a string
  * @s; string to reverse
- *
+ * Return:return nothing
  */
 
 void rev_string(char *s)
@@ -40,5 +40,3 @@ void rev_string(char *s)
 		i++, j--;
 	}
 }
-
-
