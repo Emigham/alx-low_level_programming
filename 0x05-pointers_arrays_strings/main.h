@@ -20,5 +20,6 @@ int _atoi(char *str);
 int _strlen(char *s);
 void rev_string(char *s);
 int _putchar(char c);
+int _atoi(char *s);
 
 #endif /*MAIN.H*/
